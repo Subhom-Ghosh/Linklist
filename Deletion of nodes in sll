@@ -186,3 +186,95 @@ int main()
 	 }
      return 0;
 }
+
+
+
+
+//
+OUTPUT:
+/*
+Enter number of elements want to insert in the list: 5
+
+ Enter data: 1
+
+ Enter data: 2
+
+ Enter data: 3
+
+ Enter data: 4
+
+ Enter data: 5
+
+ The contents of List (Left to Right):
+1 ->2 ->3 ->4 ->5 ->X
+1 create list
+2 Delete element at first
+3 Delete element at end
+4 Delete element at intermediate position
+5 display list
+6 exit
+Which option do you want to do 2
+
+ Node deleted
+1 create list
+2 Delete element at first
+3 Delete element at end
+4 Delete element at intermediate position
+5 display list
+6 exit
+Which option do you want to do 5
+
+ The contents of List (Left to Right):
+2 ->3 ->4 ->5 ->X
+1 create list
+2 Delete element at first
+3 Delete element at end
+4 Delete element at intermediate position
+5 display list
+6 exit
+Which option do you want to do 4
+
+ Enter position of node to delete: 3
+
+ Node deleted..
+1 create list
+2 Delete element at first
+3 Delete element at end
+4 Delete element at intermediate position
+5 display list
+6 exit
+Which option do you want to do 5
+
+ The contents of List (Left to Right):
+2 ->3 ->5 ->X
+1 create list
+2 Delete element at first
+3 Delete element at end
+4 Delete element at intermediate position
+5 display list
+6 exit
+Which option do you want to do 3
+
+1 create list
+2 Delete element at first
+3 Delete element at end
+4 Delete element at intermediate position
+5 display list
+6 exit
+Which option do you want to do 5
+
+ The contents of List (Left to Right):
+2 ->3 ->X
+1 create list
+2 Delete element at first
+3 Delete element at end
+4 Delete element at intermediate position
+5 display list
+6 exit
+Which option do you want to do 6
+
+--------------------------------
+Process exited after 51.62 seconds with return value 0
+Press any key to continue . . .
+*/
+
